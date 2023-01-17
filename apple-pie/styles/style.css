@@ -1,0 +1,43 @@
+html, body {
+    margin: 0px 200px 100px 100px;
+    padding: 0;
+  }
+.portada{
+width: 1000px;
+height: 800px;
+
+}
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.texto{
+    color:white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.information{
+justify-content: center; 
+}
+.intro{
+font-size: 1.5em;
+text-align: center;
+ ;
+}
+.imagen{
+    margin-left: 250px;
+    height: 100px;
+    width: 500px;
+}
+.lista{
+    font-size: 1.2em;
+    justify-content: center;
+}
+hr{
+    height: 1px;
+    width: 100%;
+    background-color: black;
+}
